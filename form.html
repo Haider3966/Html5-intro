@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jamal Er Ma ER Pitha ghor</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+            /* margin: 10px; */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,9 +20,47 @@
       <section>
         <h2>Please fill up the form</h2>
         <form>
-            <label for="">Your Name
-                <input type="text" placeholder="Your Name">
+            <label for="name">Your Name
+                <input id="name" type="text" placeholder="Your Name">
             </label>
+           <label for="email">Your Email
+            <input type="email" id="email" placeholder="Your Email" >
+           </label>
+           <label for="phone number">Your Phone 
+              <input type="phone" name="phone" id="phone" placeholder="Your Phone">
+           </label>
+           <fieldset>
+              <legend>
+                Pick One Pitha
+              </legend>
+              <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">Chitoy
+              </label>
+              <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">Vapa
+              </label>
+              <label for="puri">
+                <input type="radio" name="pitha" id="puri">Puri
+              </label>
+           </fieldset>
+           <fieldset>
+              <legend>Pick one or more vorta</legend> 
+              <label for="soisha">
+                <input type="checkbox" name="vorta" id="soriha">Shorisa
+              </label>
+              <label for="Shutki">
+                <input type="checkbox" name="vorta" id="shutki">Shutki
+              </label>
+              <label for="chili">
+                <input type="checkbox" name="vorta" id="chili">Chili
+              </label>
+           </fieldset>
+           <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+           </fieldset>
+           <input type="reset" value="Reset">
+           <input type="submit" value="Submit">
         </form>
       </section>
    </main>
