@@ -11,10 +11,22 @@ nav li{
 
 /* file background color write hover  */
 nav li:hover{
- background-color: lightgreen;
+ background-color: lightgray;
 }
 nav li a{
     /* angkor a vitore page gulo te under thakbena */
     text-decoration: none;
     color: black;
+}
+/* nested manu styles */
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 10px;
+}
+
+nav li:hover .dropdown{
+    display: block;
 }
