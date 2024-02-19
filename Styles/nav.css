@@ -1,0 +1,20 @@
+/* parent tag */
+nav > ul{
+    display: flex;
+}
+/* ul and list styles   fota thakbena */
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding:5px;
+}
+
+/* file background color write hover  */
+nav li:hover{
+ background-color: lightgreen;
+}
+nav li a{
+    /* angkor a vitore page gulo te under thakbena */
+    text-decoration: none;
+    color: black;
+}
